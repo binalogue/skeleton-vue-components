@@ -1,0 +1,29 @@
+{
+  "name": "@binalogue/vue-components.hello-b",
+  "description": "A component that says \"HelloB\" with green text.",
+  "version": "0.0.0",
+  "author": {
+    "name": "Binalogue",
+    "email": "mikel@binalogue.com",
+    "github": "binalogue"
+  },
+  "license": "MIT",
+  "homepage": "https://www.npmjs.com/package/@binalogue/vue-components.hello-b",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binalogue/vue-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/binalogue/vue-components/issues"
+  },
+  "module": "index.js",
+  "main": "cjs/index.js",
+  "unpkg": "umd/index.min.js",
+  "jsdelivr": "umd/index.min.js",
+  "peerDependencies": {
+    "vue": ">=2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
