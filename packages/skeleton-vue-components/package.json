@@ -1,6 +1,6 @@
 {
-  "name": "@binalogue/vue-components.hello-a",
-  "description": "A component that says \"HelloA\" with orange text.",
+  "name": "@binalogue/skeleton-vue-components",
+  "description": "🖖 An example component library built with Vue CLI 3",
   "version": "0.0.0",
   "author": {
     "name": "Binalogue",
@@ -8,13 +8,13 @@
     "github": "binalogue"
   },
   "license": "MIT",
-  "homepage": "https://www.npmjs.com/package/@binalogue/vue-components.hello-a",
+  "homepage": "https://www.npmjs.com/package/@binalogue/skeleton-vue-components",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/binalogue/vue-components.git"
+    "url": "git+https://github.com/binalogue/skeleton-vue-components.git"
   },
   "bugs": {
-    "url": "https://github.com/binalogue/vue-components/issues"
+    "url": "https://github.com/binalogue/skeleton-vue-components/issues"
   },
   "module": "index.js",
   "main": "cjs/index.js",

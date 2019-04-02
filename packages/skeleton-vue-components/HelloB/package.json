@@ -1,5 +1,5 @@
 {
-  "name": "@binalogue/vue-components.hello-b",
+  "name": "@binalogue/skeleton-vue-components.hello-b",
   "description": "A component that says \"HelloB\" with green text.",
   "version": "0.0.0",
   "author": {
@@ -8,13 +8,13 @@
     "github": "binalogue"
   },
   "license": "MIT",
-  "homepage": "https://www.npmjs.com/package/@binalogue/vue-components.hello-b",
+  "homepage": "https://www.npmjs.com/package/@binalogue/skeleton-vue-components.hello-b",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/binalogue/vue-components.git"
+    "url": "git+https://github.com/binalogue/skeleton-vue-components.git"
   },
   "bugs": {
-    "url": "https://github.com/binalogue/vue-components/issues"
+    "url": "https://github.com/binalogue/skeleton-vue-components/issues"
   },
   "module": "index.js",
   "main": "cjs/index.js",

@@ -1,5 +1,5 @@
 
-# vue-components
+# skeleton-vue-components
 
 > 🖖 An example component library built with Vue CLI 3
 
@@ -15,7 +15,7 @@ Drop the library in with a `<script>` tag alongside Vue:
 </div>
 
 <script src="https://unpkg.com/vue"></script>
-<script src="https://unpkg.com/@binalogue/vue-components"></script>
+<script src="https://unpkg.com/@binalogue/skeleton-vue-components"></script>
 <script>
 new Vue({ el: '#app' })
 </script>
@@ -29,7 +29,7 @@ Or, if you only want to use a small subset of components, drop them in individua
 </div>
 
 <script src="https://unpkg.com/vue"></script>
-<script src="https://unpkg.com/@binalogue/vue-components/HelloA"></script>
+<script src="https://unpkg.com/@binalogue/skeleton-vue-components/HelloA"></script>
 <script>
 new Vue({ el: '#app' })
 </script>
@@ -40,24 +40,24 @@ new Vue({ el: '#app' })
 Install the library with NPM:
 
 ```bash
-npm install @binalogue/vue-components
+npm install @binalogue/skeleton-vue-components
 ```
 
 Then either import the library and either globally register all components with:
 
 ```js
-import VueComponents from '@binalogue/vue-components'
+import SkeletonVueComponents from '@binalogue/skeleton-vue-components'
 
-Vue.use(VueComponents)
+Vue.use(SkeletonVueComponents)
 ```
 
 or import and locally register a single component with:
 
 ```js
-import { HelloA } from '@binalogue/vue-components'
+import { HelloA } from '@binalogue/skeleton-vue-components'
 
 export default {
-components: { VueComponents }
+components: { SkeletonVueComponents }
 }
 ```
 
@@ -66,6 +66,6 @@ components: { VueComponents }
 If you only want to use a small subset of components, import only individually packaged components to reduce the size of your application:
 
 ```js
-import HelloA from '@binalogue/vue-components/HelloA'
-import HelloB from '@binalogue/vue-components/HelloB'
+import HelloA from '@binalogue/skeleton-vue-components/HelloA'
+import HelloB from '@binalogue/skeleton-vue-components/HelloB'
 ```

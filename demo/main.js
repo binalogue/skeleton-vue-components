@@ -3,10 +3,10 @@ import App from './App'
 
 if (process.env.VUE_APP_E2E) {
   if (window.__e2e_lib) {
-    Vue.use(require('vue-components').default)
+    Vue.use(require('skeleton-vue-components').default)
   } else if (window.__e2e_components) {
-    Vue.component('HelloA', require('vue-components.hello-a').default)
-    Vue.component('HelloB', require('vue-components.hello-b').default)
+    Vue.component('HelloA', require('skeleton-vue-components.hello-a').default)
+    Vue.component('HelloB', require('skeleton-vue-components.hello-b').default)
   }
 } else {
   // Install the plugin directly from src in development

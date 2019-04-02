@@ -15,7 +15,7 @@ Drop the library in with a `<script>` tag alongside Vue to globally install all 
 </div>
 
 <script src="https://unpkg.com/vue"></script>
-<script src="https://unpkg.com/@binalogue/vue-components"></script>
+<script src="https://unpkg.com/@binalogue/skeleton-vue-components"></script>
 <script>
   new Vue({ el: '#app' })
 </script>
@@ -30,8 +30,8 @@ Or, if you only want to use a small subset of components, drop them in individua
 </div>
 
 <script src="https://unpkg.com/vue"></script>
-<script src="https://unpkg.com/@binalogue/vue-components/HelloA"></script>
-<script src="https://unpkg.com/@binalogue/vue-components/HelloB"></script>
+<script src="https://unpkg.com/@binalogue/skeleton-vue-components/HelloA"></script>
+<script src="https://unpkg.com/@binalogue/skeleton-vue-components/HelloB"></script>
 <script>
   new Vue({ el: '#app' })
 </script>
@@ -42,13 +42,13 @@ Or, if you only want to use a small subset of components, drop them in individua
 Install the library with NPM:
 
 ```bash
-npm install @binalogue/vue-components
+npm install @binalogue/skeleton-vue-components
 ```
 
 Then register the library as a plugin to globally install all components:
 
 ```js
-import BinawebVueComponents from '@binalogue/vue-components'
+import BinawebVueComponents from '@binalogue/skeleton-vue-components'
 
 Vue.use(BinawebVueComponents)
 ```
@@ -56,7 +56,7 @@ Vue.use(BinawebVueComponents)
 Or, import components individually for local registration:
 
 ```js
-import { HelloA, HelloB } from '@binalogue/vue-components'
+import { HelloA, HelloB } from '@binalogue/skeleton-vue-components'
 
 export default {
   components: { HelloA, HelloB }
@@ -68,6 +68,6 @@ export default {
 If you only want to use a small subset of components, only import individually packaged components to reduce the size of your application:
 
 ```js
-import HelloA from '@binalogue/vue-components.HelloA'
-import HelloB from '@binalogue/vue-components.HelloB'
+import HelloA from '@binalogue/skeleton-vue-components.HelloA'
+import HelloB from '@binalogue/skeleton-vue-components.HelloB'
 ```

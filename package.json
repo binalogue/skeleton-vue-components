@@ -1,17 +1,17 @@
 {
-  "name": "vue-components",
+  "name": "skeleton-vue-components",
   "private": true,
   "scripts": {
     "dev": "node build-utils/update-index-file.js && vue-cli-service serve",
     "build": "node build-utils/build-lib.js",
     "lint": "eslint --ext .js,.vue --fix . && stylelint --fix \"{src,tests/e2e/demo}/**/*.{css,vue}\" && markdownlint docs/*.md *.md && prettier --write --loglevel warn \"**/*.{js,json,css,vue,md}\"",
-    "unit": "vue-cli-service test:unit",
-    "e2e": "cross-env VUE_APP_E2E=true npm run build && vue-cli-service test:e2e",
-    "test": "npm run unit",
-    "tests": "npm run unit && npm run e2e",
-    "prepare:pre": "yarn lint && yarn test && yarn build && git add . && git commit -m \"🦄 Build\"",
-    "prepare:release": "yarn prepare:pre && lerna version --amend --force-publish",
-    "prepare:prerelease": "yarn prepare:pre && lerna version prerelease --preid alpha --amend --force-publish",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "cross-env VUE_APP_E2E=true yarn build && vue-cli-service test:e2e",
+    "test:all": "yarn test:unit && yarn test:e2e",
+    "test": "yarn test:unit",
+    "prepare:before": "yarn lint && yarn test && yarn build && git add . && git commit -m \"🦄 Build\"",
+    "prepare:release": "yarn prepare:before && lerna version --amend --force-publish",
+    "prepare:prerelease": "yarn prepare:before && lerna version prerelease --preid alpha --amend --force-publish",
     "publish:canary": "lerna publish --canary",
     "publish:fromgit": "lerna publish from-git"
   },
@@ -105,8 +105,7 @@
       ],
       "vue/no-parsing-error": "off"
     },
-    "overrides": [
-      {
+    "overrides": [{
         "files": [
           "src/**/*",
           "demo/**/*",
@@ -195,7 +194,7 @@
       "eslint --fix",
       "prettier --write --loglevel warn",
       "git add",
-      "npm run unit -- --bail --findRelatedTests"
+      "yarn test:unit -- --bail --findRelatedTests"
     ],
     "{*.json,*.code-snippets,.*rc}": [
       "prettier --write --loglevel warn --parser json",
@@ -206,7 +205,7 @@
       "stylelint --fix",
       "prettier --write --loglevel warn",
       "git add",
-      "npm run unit -- --bail --findRelatedTests"
+      "yarn test:unit -- --bail --findRelatedTests"
     ],
     "*.css": [
       "stylelint --fix",
