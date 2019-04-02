@@ -1,7 +1,5 @@
 const path = require('path')
-const {
-  IgnorePlugin
-} = require('webpack')
+const { IgnorePlugin } = require('webpack')
 
 module.exports = {
   chainWebpack: config => {
@@ -33,9 +31,11 @@ module.exports = {
       .loader('null-loader')
 
     if (!process.env.VUE_APP_E2E) {
-      config.plugin('ignore-e2e-packages').use(IgnorePlugin, [{
-        resourceRegExp: /^skeleton-vue-components/
-      }])
+      config.plugin('ignore-e2e-packages').use(IgnorePlugin, [
+        {
+          resourceRegExp: /^skeleton-vue-components/
+        }
+      ])
     }
   },
   devServer: {

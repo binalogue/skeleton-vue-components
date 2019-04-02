@@ -105,7 +105,8 @@
       ],
       "vue/no-parsing-error": "off"
     },
-    "overrides": [{
+    "overrides": [
+      {
         "files": [
           "src/**/*",
           "demo/**/*",
