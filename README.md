@@ -48,9 +48,9 @@ npm install @binalogue/vue-components
 Then register the library as a plugin to globally install all components:
 
 ```js
-import HelloVueComponents from '@binalogue/vue-components'
+import BinawebVueComponents from '@binalogue/vue-components'
 
-Vue.use(HelloVueComponents)
+Vue.use(BinawebVueComponents)
 ```
 
 Or, import components individually for local registration:
