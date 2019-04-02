@@ -1,6 +1,6 @@
 {
   "name": "vue-components",
-  "description": "🖖 Binaweb component library, built with Vue CLI 3",
+  "description": "🖖 An example component library built with Vue CLI 3",
   "author": {
     "name": "Binalogue",
     "email": "mikel@binalogue.com",

@@ -1,7 +1,7 @@
 
 # vue-components
 
-> 🖖 Binaweb component library, built with Vue CLI 3
+> 🖖 An example component library built with Vue CLI 3
 
 ## Installation
 

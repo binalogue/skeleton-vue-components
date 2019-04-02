@@ -1,6 +1,6 @@
-# Vue Components
+# Skeleton Vue Components
 
-> 🖖 Binaweb component library, built with Vue CLI 3
+> 🖖 An example component library built with Vue CLI 3
 
 ## Usage
 
