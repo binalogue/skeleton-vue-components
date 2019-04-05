@@ -1,7 +1,7 @@
 {
   "name": "@binalogue/skeleton-vue-components.hello-a",
   "description": "A component that says \"HelloA\" with orange text.",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "author": {
     "name": "Binalogue",
     "email": "mikel@binalogue.com",
