@@ -121,7 +121,9 @@ function renameIndex(componentName) {
     path.resolve(destPackageFolder, 'index.js'),
     `\
 export * from './src${componentName ? '/' + componentName + '.vue' : ''}'
-export { default } from './src${componentName ? '/' + componentName + '.vue' : ''}'
+export { default } from './src${
+      componentName ? '/' + componentName + '.vue' : ''
+    }'
 `
   )
 

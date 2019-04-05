@@ -79,11 +79,11 @@ import HelloB from '@binalogue/skeleton-vue-components.hello-b'
 
 ## Built With
 
-* [Vue CLI](https://cli.vuejs.org) - Standard Tooling for Vue.js Development
+- [Vue CLI](https://cli.vuejs.org) - Standard Tooling for Vue.js Development
 
 ## Authors
 
-* **Mikel Goig** - *Initial work* - [mgoigfer](https://github.com/mgoigfer)
+- **Mikel Goig** - _Initial work_ - [mgoigfer](https://github.com/mgoigfer)
 
 ## Postcardware
 
