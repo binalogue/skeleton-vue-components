@@ -67,9 +67,14 @@ export default {
 
 If you only want to use a small subset of components, only import individually packaged components to reduce the size of your application:
 
+```bash
+npm install @binalogue/skeleton-vue-components.hello-a
+npm install @binalogue/skeleton-vue-components.hello-b
+```
+
 ```js
-import HelloA from '@binalogue/skeleton-vue-components.HelloA'
-import HelloB from '@binalogue/skeleton-vue-components.HelloB'
+import HelloA from '@binalogue/skeleton-vue-components.hello-a'
+import HelloB from '@binalogue/skeleton-vue-components.hello-b'
 ```
 
 ## Built With
