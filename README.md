@@ -72,6 +72,24 @@ import HelloA from '@binalogue/skeleton-vue-components.HelloA'
 import HelloB from '@binalogue/skeleton-vue-components.HelloB'
 ```
 
+## Built With
+
+* [Vue CLI](https://cli.vuejs.org) - Standard Tooling for Vue.js Development
+
+## Authors
+
+* **Mikel Goig** - *Initial work* - [mgoigfer](https://github.com/mgoigfer)
+
+## Postcardware
+
+If you are using our skeleton to set up your own Vue components library, please send us a postcard from your hometown.
+
+Our address is: Binalogue, Calle de Génova, 11, 3D, 28004 Madrid, Spain.
+
+## License
+
+This project is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
 ## Acknowledgments
 
 This repository is inspired by [chrisvfritz/hello-vue-components](https://github.com/chrisvfritz/hello-vue-components).
