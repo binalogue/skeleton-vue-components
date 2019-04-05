@@ -71,3 +71,7 @@ If you only want to use a small subset of components, only import individually p
 import HelloA from '@binalogue/skeleton-vue-components.HelloA'
 import HelloB from '@binalogue/skeleton-vue-components.HelloB'
 ```
+
+## Acknowledgments
+
+This repository is inspired by [chrisvfritz/hello-vue-components](https://github.com/chrisvfritz/hello-vue-components).
